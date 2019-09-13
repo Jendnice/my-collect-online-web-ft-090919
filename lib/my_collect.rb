@@ -7,7 +7,7 @@ def my_collect(array)
     yield(array[i])
     i += 1 
   end
-  new_collect
+  p new_collect
 end
 
 array = ["Tim Jones", "Tom Smith", "Jim Campagno"]
